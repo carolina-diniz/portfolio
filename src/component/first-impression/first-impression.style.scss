@@ -1,0 +1,43 @@
+@use "~styles" as *;
+
+.first-impression {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  &__content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+  }
+
+  &__description {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 50rem;
+  }
+
+  &__title {
+    font-size: font(size, 130);
+    font-weight: font(weight, bold);
+    line-height: 88%;
+    margin-top: 18vh;
+    margin-bottom: 20vh;
+  }
+
+  &__text p {
+    margin-bottom: spacing(4);
+  }
+
+  &__link {
+    color: color(pink, light);
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

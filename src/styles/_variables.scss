@@ -1,0 +1,170 @@
+// Tipografia
+$font: (
+  family: (
+    primary: 'Comfortaa',
+    secondary: 'Inter',
+  ),
+  weight: (
+    light: 300,
+    regular: 400,
+    medium: 500,
+    semibold: 600,
+    bold: 700,
+    xbold: 800,
+    black: 900,
+  ),
+  size: (
+    1: 0.4rem,
+    8: 0.8rem,
+    10: 1rem,
+    20: 1.2rem,
+    30: 1.4rem,
+    40: 1.6rem,
+    50: 1.8rem,
+    60: 2rem,
+    70: 2.4rem,
+    80: 2.8rem,
+    90: 3.2rem,
+    100: 4rem,
+    110: 4.8rem,
+    120: 5.6rem,
+    130: 6.4rem,
+    140: 7.2rem,
+    150: 8rem,
+    160: 8.8rem,
+  ),
+);
+
+// Paleta de cores
+$color: (
+  neutral: (
+    10: rgb(238, 238, 238),
+    20: rgb(204, 204, 204),
+    30: rgb(170, 170, 170),
+    40: rgb(136, 136, 136),
+    50: rgb(102, 102, 102),
+    60: rgb(69, 69, 69),
+    70: rgb(51, 51, 51),
+    80: rgb(38, 38, 38),
+    90: rgb(31, 31, 31),
+    100: rgb(25, 25, 25),
+  ),
+  black: (
+    base: rgb(0, 0, 0),
+    10: rgba(0, 0, 0, 0.1),
+    20: rgba(0, 0, 0, 0.2),
+    30: rgba(0, 0, 0, 0.3),
+    40: rgba(0, 0, 0, 0.4),
+    50: rgba(0, 0, 0, 0.5),
+    60: rgba(0, 0, 0, 0.6),
+    80: rgba(0, 0, 0, 0.8),
+    100: rgb(25, 25, 25),
+    110: #141416,
+    120: #868A8F,
+  ),
+  white: (
+    base: rgb(255, 255, 255),
+    10: rgba(255, 255, 255, 0.1),
+    20: rgba(255, 255, 255, 0.2),
+    30: rgba(255, 255, 255, 0.3),
+    40: rgba(255, 255, 255, 0.4),
+    50: rgba(255, 255, 255, 0.5),
+    60: rgba(255, 255, 255, 0.6),
+    70: rgba(255, 255, 255, 0.7),
+    80: rgba(255, 255, 255, 0.8),
+    90: rgba(255, 255, 255, 0.9),
+    100: rgb(230, 230, 230),
+  ),
+  blue: (
+    lightest: #f3faff,
+    lighter: #cfebff,
+    light: #acdcff,
+    primary: #88cdff,
+    dark: #5f90b3,
+    darker: #446780,
+    darkest: #353d42,
+  ),
+  purple: (
+    lightest: #fbf3ff,
+    lighter: #edcfff,
+    light: #e0acff,
+    primary: #d288ff,
+    dark: #935fb3,
+    darker: #694480,
+  ),
+  red: (
+    lightest: #fff2f7,
+    lighter: #ffcbde,
+    light: #ffa3c5,
+    primary: #ff7cac,
+    dark: #b35778,
+    darker: #803e56,
+  ),
+  pink: (
+    light: #DD9FAF,
+  ),
+  transparent: (
+    base: rgba(0, 0, 0, 0),
+  ),
+);
+
+// Espaçamentos
+$spacing: (
+  1: 0.4rem,
+  2: 0.8rem,
+  3: 1.2rem,
+  4: 1.6rem,
+  5: 2rem,
+  6: 2.4rem,
+  7: 2.8rem,
+  8: 3.2rem,
+  9: 4rem,
+  10: 4.8rem,
+  11: 5.6rem,
+  12: 6.4rem,
+  13: 7.2rem,
+  14: 8rem,
+  15: 8.8rem,
+);
+
+// Bordas
+$border: (
+  width: (
+    thin: 0.1rem,
+    light: 0.2rem,
+    medium: 0.4rem,
+    heavy: 0.6rem,
+  ),
+  radius: (
+    small: 0.4rem,
+    medium: 0.8rem,
+    large: 1.2rem,
+    xlarge: 1.6rem,
+    xxlarge: 2.4rem,
+    circular: 100rem,
+  ),
+);
+
+// Icones
+$icon: (
+  1: 1.6rem,
+  2: 2.4rem,
+  3: 3.2rem,
+  4: 4.8rem,
+  5: 5.6rem,
+  6: 6.4rem,
+);
+
+// Botões
+$button: (
+  1: 4.8rem,
+  2: 5.6rem,
+  3: 6.4rem,
+);
+
+// Inputs
+$input: (
+  1: 4.8rem,
+  2: 5.6rem,
+  3: 6.4rem,
+);

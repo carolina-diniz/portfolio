@@ -1,0 +1,21 @@
+@use 'scss-reset';
+@use './styles/_reset';
+@use './styles' as *;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: color(black, 110);
+  color: color(neutral, 10);
+}
+
+button {
+  color: color(neutral, 10);
+}
+
+a {
+  color:  color(neutral, 10);
+  text-decoration: none;
+}

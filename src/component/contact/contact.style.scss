@@ -1,0 +1,45 @@
+@use '~styles' as *;
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 12vw;
+  gap: 3.2rem;
+
+  &__info {
+    width: 100%;
+    max-width: 42rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+  }
+
+  &__title {
+    font-size: 3.2rem;
+  }
+
+  &__link {
+    &:hover {
+      color: color(pink, light);
+    }
+  }
+
+  &__message {
+    color: #868a8f;
+  }
+
+  &__logo {
+    width: 40rem;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dd9faf;
+    border-radius: 50%;
+    font-size: 6.4rem;
+    font-weight: 700;
+  }
+}

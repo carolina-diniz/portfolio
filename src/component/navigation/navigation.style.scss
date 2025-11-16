@@ -1,0 +1,25 @@
+@use "~styles" as *;
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__logo {
+    font-size: font(size, 70);
+    font-weight: font(weight, bold);
+  }
+
+  &__contact {
+    padding: 1rem 4rem;
+    font-size: font(size, 60);
+    border: 2px solid color(white, 100);
+    border-radius: border(radius, xlarge);
+    cursor: pointer;
+
+    &:hover {
+      color: color(pink, light);
+      border: 2px solid color(pink, light);
+    }
+  }
+}

@@ -1,0 +1,42 @@
+@use '~styles' as *;
+
+.about-me {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3.2rem;
+
+  &__left-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-width: 30rem;
+    max-width: 51rem;
+    flex: 1 1 30rem;
+  }
+
+  &__right-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 30rem;
+    max-width: 51rem;
+    flex: 1 1 30rem;
+    gap: 3.2rem;
+  }
+
+  &__title {
+    font-size: font(size, 160);
+    font-weight: font(weight, black);
+    margin-bottom: 1.6rem;
+  }
+
+  &__subtitle {
+    font-size: font(size, 80);
+  }
+
+  &__text {
+    text-align: justify;
+  }
+}
